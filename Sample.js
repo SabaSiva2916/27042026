@@ -13,3 +13,18 @@ console.log(s.toUpperCase());
 
 //To convert the String into Lowercase
 console.log(s.toLowerCase());
+
+//To find the index of character
+console.log(s.indexOf("a"));
+
+//Returns the index of first occurrence of specified value in a string
+console.log(s.indexOf("a", 3)); //Start searching from index 3
+
+//Returns the index of last occurrence of specified value in a string
+console.log(s.lastIndexOf("a")); //Start searching from end of the string
+
+//Reverse of Strinng
+let rev = "";
+for (let i = s.length - 1; i >= 0; i--) {
+  rev = rev + s.charAt(i);
+}

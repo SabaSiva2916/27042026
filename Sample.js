@@ -14,6 +14,16 @@ console.log(s.toUpperCase());
 //To convert the String into Lowercase
 console.log(s.toLowerCase());
 
+//Adding looping to print each character of String
+for (let i = 0; i < s.length; i++) {
+  console.log(s.charAt(i));
+}
+
+//Adding Trim() method to remove the extra spaces from the String
+let s1 = "   Hello World   ";
+console.log(s1);
+console.log(s1.trim());
+
 //To find the index of character
 console.log(s.indexOf("a"));
 
